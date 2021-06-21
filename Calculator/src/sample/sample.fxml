@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="208.0" prefWidth="263.0">
+        <children>
+          <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="169.0" prefWidth="211.0" VBox.vgrow="ALWAYS">
+            <children>
+              <Label alignment="CENTER" layoutX="155.0" layoutY="177.0" style="&#10;" textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+                <font>
+                  <Font size="18.0" />
+                </font>
+              </Label>
+                  <Button layoutX="63.0" layoutY="34.0" mnemonicParsing="false" onAction="#showEightNumber" prefHeight="26.0" prefWidth="52.0" text="8" />
+                  <Button layoutY="103.0" mnemonicParsing="false" onAction="#showOneNumber" prefHeight="26.0" prefWidth="52.0" text="1" />
+                  <Button layoutY="66.0" mnemonicParsing="false" onAction="#showFourNumber" prefHeight="26.0" prefWidth="52.0" text="4" />
+                  <Button layoutY="138.0" mnemonicParsing="false" onAction="#showZeroNumber" prefHeight="26.0" prefWidth="52.0" text="0" />
+                  <Button layoutX="129.0" layoutY="34.0" mnemonicParsing="false" onAction="#showNineNumber" prefHeight="26.0" prefWidth="52.0" text="9" />
+                  <Button layoutX="63.0" layoutY="66.0" mnemonicParsing="false" onAction="#showFiveNumber" prefHeight="26.0" prefWidth="52.0" text="5" />
+                  <Button layoutX="64.0" layoutY="103.0" mnemonicParsing="false" onAction="#showTwoNumber" prefHeight="26.0" prefWidth="52.0" text="2" />
+                  <Button layoutX="63.0" layoutY="138.0" mnemonicParsing="false" onAction="#showPoint" prefHeight="26.0" prefWidth="52.0" text="." />
+                  <Button layoutX="129.0" layoutY="66.0" mnemonicParsing="false" onAction="#showSixNumber" prefHeight="26.0" prefWidth="52.0" text="6" />
+                  <Button layoutX="129.0" layoutY="103.0" mnemonicParsing="false" onAction="#showThreeNumber" prefHeight="26.0" prefWidth="52.0" text="3" />
+                  <Button layoutX="129.0" layoutY="138.0" mnemonicParsing="false" onAction="#calculate" prefHeight="26.0" prefWidth="52.0" text="=" />
+                  <Button layoutX="190.0" layoutY="138.0" mnemonicParsing="false" onAction="#sum" prefHeight="26.0" prefWidth="52.0" text="+" />
+                  <Button layoutX="190.0" layoutY="1.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clearTextField" prefHeight="26.0" prefWidth="52.0" text="Ac" />
+                  <Button layoutX="190.0" layoutY="34.0" mnemonicParsing="false" onAction="#division" prefHeight="26.0" prefWidth="52.0" text="/" />
+                  <Button layoutX="190.0" layoutY="66.0" mnemonicParsing="false" onAction="#multiply" prefHeight="26.0" prefWidth="52.0" text="*" />
+                  <Button layoutX="190.0" layoutY="102.0" mnemonicParsing="false" onAction="#subtraction" prefHeight="27.0" prefWidth="52.0" text="-" />
+                  <Button layoutY="34.0" mnemonicParsing="false" onAction="#showSevenNumber" prefHeight="26.0" prefWidth="52.0" text="7" />
+                  <TextField fx:id="calculatorTextField" layoutY="1.0" prefHeight="26.0" prefWidth="180.0" />
+            </children>
+          </AnchorPane>
+        </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>
